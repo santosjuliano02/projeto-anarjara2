@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Features</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+       p {
+        background-color: blue;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
+        border-radius: 5px;
+        color: #ffffff;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+       }
+
+        img {
+        display: block;
+        width: 130px;
+        padding-left: 20px;
+       }
+
+       div {
+        background-color: blue;
+        padding-left: 10px;
+        display: block;
+        width: 150px;
+       }
+
+       strong {
+        color: #ffffff;
+       }
+
+       @media all {
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #ffa60081;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: rgba(0, 0, 255, 0.596);
+            text-shadow: 2px 2px 0px #ffffffbd;
+            padding: 10px; 
+        }
+       }
+      @media screen and (orientation: portrait) {
+       
+        body {
+            background-image: url(imagens/NZTS4988-removebg-preview.png);
+            background-position: center bottom;
+        }
+    }
+
+      @media screen and (orientation: landscape) {
+        body {
+            background-image: url(imagens/NZTS4988-removebg-preview.png);
+             background-position: right bottom;
+             width: 500px; 
+        }
+      }
+    </style>
+</head>
+<body>
+    <p>Nosso objetivo é zelar pelo bem-estar e desenvolvimento saudável de crianças e adolescentes, atuando de forma ética, responsável e imparcial.</p>
+    <h1><strong>VOTE</strong> <br> ANARJARA OLIVEIRA <br> 106</h1>
+    <main>
+        <img src="imagens/th (2).jpeg" alt="">
+    </main>
+</body>
+</html>
